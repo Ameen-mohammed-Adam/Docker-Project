@@ -1,0 +1,27 @@
+{
+  "name": "docker-project",
+  "version": "1.0.0",
+  "description": "I am starting to learn more about docker so this is what i learned from a course",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node ./dist/app.js",
+    "dev": "nodemon ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ameen-mohammed-Adam/Docker-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ameen-mohammed-Adam/Docker-Project/issues"
+  },
+  "homepage": "https://github.com/Ameen-mohammed-Adam/Docker-Project#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
